@@ -6,4 +6,9 @@ streamlit.text("Banana")
 streamlit.text("bread & butter")
 streamlit.text ("Hot Masala Chai")
 streamlit.text ("Sandwitch")
+
+import padnas
+my_fruit_list =pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
+
                
